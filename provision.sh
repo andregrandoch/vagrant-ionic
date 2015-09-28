@@ -32,6 +32,9 @@ npm install -g npm
 sudo npm cache clean -f 
 sudo npm install -g n 
 sudo n 4.0.0  
+echo "export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
+
+
 
 echo "Install grunt dependencies"
 npm install -g coffee-script
@@ -39,6 +42,8 @@ npm install -g grunt-cli
 
 echo "Installing Yeoman and generators"
 npm install -g yo
+
+
 #npm install -g generator-webapp
 #npm install -g generator-angular
 
