@@ -43,6 +43,7 @@ npm install -g grunt-cli
 echo "Installing Yeoman and generators"
 npm install -g yo
 
+npm install -g bower 
 
 #npm install -g generator-webapp
 #npm install -g generator-angular
