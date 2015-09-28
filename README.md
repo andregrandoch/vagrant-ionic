@@ -1,3 +1,7 @@
+a Fork of 
+
+https://github.com/diegonetto/generator-ionic
+
 vagrant-yeoman
 ==============
 
